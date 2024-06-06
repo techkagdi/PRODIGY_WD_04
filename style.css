@@ -13,8 +13,9 @@ body{
 
 .game{
 
-    width: 18rem;
- 
+    width: 24rem;
+ display: flex;
+ flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
