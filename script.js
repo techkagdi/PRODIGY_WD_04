@@ -1,5 +1,5 @@
 let boxes = document.querySelectorAll(".box");
-let reset = document.querySelector("#reset-btn");
+let reset = document.querySelector(".reset");
 
 let turn0 = true;
 
@@ -25,5 +25,13 @@ boxes.forEach((box) => {
         box.innerHTML ="0";
         turn0 = true;
        }
+       box.disabled = true;
     })
 });
+
+reset.addEventListener("click", () => {
+    boxes.forEach((box) => {
+        box.disabled = false;
+        box.innerHTML = "";
+    })
+})

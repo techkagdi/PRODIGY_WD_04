@@ -13,7 +13,7 @@ body{
 
 .game{
 
-    width: 24rem;
+    width: 50vmin;
  display: flex;
  flex-wrap: wrap;
   justify-content: center;
@@ -32,4 +32,17 @@ body{
     font-weight: 600;
     color:red;
   
+}
+
+.reset{
+
+        border-radius: 5px ;
+        background-color: rgb(30, 0, 253);
+        box-shadow: 5px 2px 2px grey ;
+        font-size: x-large;
+        font-family: 'Segoe UI';
+        font-weight: 600;
+        color:rgb(255, 255, 255);
+      
+ 
 }
